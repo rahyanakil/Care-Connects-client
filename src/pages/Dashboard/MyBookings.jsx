@@ -82,9 +82,9 @@ const MyBookings = () => {
         </div>
       ) : (
         <EmptyState 
-        message={"You did not book any place yet!"} 
+        message={"You did not book any Appoinment!"} 
         address={"/"}
-        label={"Browse Places"} />
+        label={"Browse Doctor's Appoinments"} />
       )}
     </>
   );

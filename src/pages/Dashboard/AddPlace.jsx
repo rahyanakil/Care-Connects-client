@@ -60,7 +60,7 @@ const AddPlace = () => {
             .then(data => {
                setUploadButtonText('Uploaded!')
                setLoading(false)
-               toast.success('Place Added!')
+               toast.success('Doctor Added!')
                navigate('/dashboard/my-listings')
             })
             .catch(err => {

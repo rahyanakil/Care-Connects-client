@@ -12,25 +12,39 @@ function WhyChooseUs() {
             Discover what sets us apart from the rest.
           </p>
         </div>
+
         <div className="mt-10 flex flex-wrap -mx-4">
           {/* Unique Expertise */}
           <div className="w-full md:w-1/2 px-4 rounded-md hover:bg-sky-50 hover:shadow-md">
             <div className="p-6">
-              <h3 className="text-xl font-semibold text-gray-900">
+              <h3 className="text-lg font-bold text-gray-700">
                 Unique Expertise
               </h3>
               <p className="mt-4 text-gray-600">
-                We have in-depth knowledge of each destination, ensuring you get
-                a unique and authentic travel experience.
+                Choose us for our unparalleled professional expertise. Our team
+                comprises seasoned professionals with years of experience in
+                medical sectors.
               </p>
             </div>
           </div>
-
+          {/* More Points */}
+          <div className="w-full md:w-1/2 px-4 rounded-md hover:bg-sky-50 hover:shadow-md">
+            <div className="p-6">
+              <h3 className="text-lg font-bold text-gray-700">
+                Flexible Appointment Options
+              </h3>
+              <p className="mt-4 text-gray-600">
+                We believe in giving you the flexibility you need. Our platform
+                supports various appointment types, from one-on-one meetings to
+                group sessions.
+              </p>
+            </div>
+          </div>
           {/* Exceptional Customer Service */}
           <div className="w-full md:w-1/2 px-4 rounded-md hover:bg-sky-50 hover:shadow-md">
             <div className="p-6">
-              <h3 className="text-xl font-semibold text-gray-900">
-                Exceptional Customer Service
+              <h3 className="text-lg font-bold text-gray-700">
+                Customer Support
               </h3>
               <p className="mt-4 text-gray-600">
                 Our top priority is your satisfaction. Our dedicated team is
@@ -39,15 +53,31 @@ function WhyChooseUs() {
             </div>
           </div>
 
+          
+
           {/* Awards and Affiliations */}
           <div className="w-full md:w-1/2 px-4 rounded-md hover:bg-sky-50 hover:shadow-md">
             <div className="p-6">
-              <h3 className="text-xl font-semibold text-gray-900">
-                Awards and Affiliations
+              <h3 className="text-lg font-bold text-gray-700">
+                User-Friendly Platform
               </h3>
               <p className="mt-4 text-gray-600">
-                We are proud recipients of several industry awards and
-                affiliated with leading travel organizations.
+                Enjoy the ease of appointment booking with our user-friendly
+                platform. We have designed our website to be intuitive and
+                accessible.
+              </p>
+            </div>
+          </div>
+
+          <div className="w-full md:w-1/2 px-4 rounded-md hover:bg-sky-50 hover:shadow-md">
+            <div className="p-6">
+              <h3 className="text-lg font-bold text-gray-700">
+                Seamless Integration
+              </h3>
+              <p className="mt-4 text-gray-600">
+                Integrate our appointment booking system seamlessly into your
+                existing tools and processes. We understand the importance of
+                compatibility
               </p>
             </div>
           </div>
@@ -55,37 +85,13 @@ function WhyChooseUs() {
           {/* More Points */}
           <div className="w-full md:w-1/2 px-4 rounded-md hover:bg-sky-50 hover:shadow-md">
             <div className="p-6">
-              <h3 className="text-xl font-semibold text-gray-900">
-                Tailored Travel Experiences
+              <h3 className="text-lg font-bold text-gray-700">
+                Reliable and Secure
               </h3>
               <p className="mt-4 text-gray-600">
-                We craft personalized travel experiences that cater to your
-                specific interests and preferences.
-              </p>
-            </div>
-          </div>
-
-          <div className="w-full md:w-1/2 px-4 rounded-md hover:bg-sky-50 hover:shadow-md">
-            <div className="p-6">
-              <h3 className="text-xl font-semibold text-gray-900">
-                Global Network
-              </h3>
-              <p className="mt-4 text-gray-600">
-                With a vast global network, we can provide support and
-                assistance no matter where your journey takes you.
-              </p>
-            </div>
-          </div>
-
-          {/* More Points */}
-          <div className="w-full md:w-1/2 px-4 rounded-md hover:bg-sky-50 hover:shadow-md">
-            <div className="p-6">
-              <h3 className="text-xl font-semibold text-gray-900">
-                Towards Travel Heaven
-              </h3>
-              <p className="mt-4 text-gray-600">
-                We craft personalized travel experiences that cater to your
-                specific interests and preferences.
+                We prioritize the security and reliability of your data. Our
+                robust infrastructure ensures that your appointments and
+                sensitive information.
               </p>
             </div>
           </div>

@@ -32,9 +32,9 @@ const PlaceInfo = ({ placeData }) => {
             text-neutral-500
           "
         >
-          <div>{placeData.guests} guests</div>
-          <div>{placeData.bedrooms} rooms</div>
-          <div>{placeData.bathrooms} bathroom</div>
+          <div>Experience:{placeData.guests} Years</div>
+          <div>Contacts:{placeData.bedrooms} </div>
+          <div>Email: {placeData.bathrooms}</div>
         </div>
       </div>
 

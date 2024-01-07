@@ -4,59 +4,50 @@ import Container from "../Shared/Container";
 const LocalCuisineSection = () => {
   const foodieAdventures = [
     {
-      title: "Taste of Italy",
-      description:
-        "Indulge in the flavors of Italy with authentic pasta, pizza, and gelato.",
-      image:
-        "https://images.unsplash.com/photo-1496134732667-ae8d2853a045?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJhdmVsJTIwZm9vZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
-      link: "/italy-food-tour",
+      "department": "Cardiology",
+      "description": "Comprehensive care for heart health with advanced diagnostics and treatment.",
+      "image": "https://i.ibb.co/PM9PZn6/pexels-karolina-grabowska-5207102.jpg",
+      "link": "https://cardiology.bsmmu.ac.bd/"
     },
     {
-      title: "Spices of India",
-      description:
-        "Experience the vibrant and diverse culinary culture of India.",
-      image:
-        "https://images.unsplash.com/photo-1560703876-77b86f04b8de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRyYXZlbCUyMGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
-      link: "/india-food-tour",
+      "department": "Orthopedics",
+      "description": "Specialized care for musculoskeletal conditions and orthopedic surgeries.",
+      "image": "https://i.ibb.co/3ySZDWR/pexels-cottonbro-studio-6191549.jpg",
+      "link": "/orthopedics"
     },
     {
-      title: "Sushi Delights in Japan",
-      description: "Discover the art of sushi-making in the heart of Japan.",
-      image:
-        "https://images.unsplash.com/photo-1592304620205-347272c51580?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRyYXZlbCUyMGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
-      link: "/japan-sushi-tour",
+      "department": "Maternity and Pediatrics",
+      "description": "Compassionate care for expectant mothers and children with a focus on maternal and child health.",
+      "image": "https://i.ibb.co/G2HBkQf/pexels-cottonbro-studio-5853820.jpg",
+      "link": "/maternity"
     },
     {
-      title: "Mediterranean Gastronomy",
-      description:
-        "Savor the Mediterraneans finest cuisine with fresh seafood and mezze.",
-      image:
-        "https://images.unsplash.com/photo-1514190051997-0f6f39ca5cde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHRyYXZlbCUyMGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
-      link: "/mediterranean-food-tour",
+      "department": "Neurology",
+      "description": "Advanced neurological care and diagnostics for conditions affecting the nervous system.",
+      "image": "https://i.ibb.co/1vy20Dd/pexels-amel-uzunovic-15410078.jpg",
+      "link": "/neurology"
     },
     {
-      title: "Thai Street Food Adventure",
-      description:
-        "Explore the vibrant street food scene of Thailand with local delicacies.",
-      image:
-        "https://images.unsplash.com/photo-1571197161439-9cc39b68aedd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHRyYXZlbCUyMGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
-      link: "/thailand-street-food-tour",
+      "department": "Internal Medicine",
+      "description": "Comprehensive primary care for adults with a focus on preventive healthcare.",
+      "image": "https://i.ibb.co/rwG1dhD/pexels-nataliya-vaitkevich-5863400.jpg",
+      "link": "/internal-medicine-services"
     },
     {
-      title: "French Pastry Experience",
-      description:
-        "Delight in the sweet and savory world of French pastries and cuisine.",
-      image:
-        "https://images.unsplash.com/photo-1579372785655-a81b19e99b8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fHRyYXZlbCUyMGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
-      link: "/french-pastry-tour", // Link to the detailed food tour page
-    },
-  ];
+      "department": "Emergency Medicine",
+      "description": "Prompt and effective emergency care for critical medical conditions.",
+      "image": "https://i.ibb.co/58Y0zYz/pexels-anna-shvets-3844581.jpg",
+      "link": "/emergency-medicine-services"
+    }
+  ]
+  ;
 
   return (
     <Container>
       <div className="container mx-auto my-20">
         <h2 className="animated-text text-center text-3xl mt-20">
-          Local Cuisine and Foodie Adventures
+          {/* Local Cuisine and Foodie Adventures */}
+          Comprehensive Healthcare Services and Patient-Centric Solutions
         </h2>
         <p className="animated-text text-center text-lg">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec
@@ -69,12 +60,12 @@ const LocalCuisineSection = () => {
             >
               <img
                 src={adventure.image}
-                alt={adventure.title}
+                alt={adventure.department}
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">
-                  {adventure.title}
+                  {adventure.department}
                 </h3>
                 <p className="text-gray-600 mb-4">{adventure.description}</p>
                 <a

@@ -1,7 +1,7 @@
-import Img from '../../../assets/images/logos.png'
+import Img from '../../../assets/images/carelogo.png'
 const Footer = () => {
   return (
-    <footer className="footer text-center pb-12 bg-transparent text-gray-500">
+    <footer className="footer text-center pb-12  text-white bg-green-800">
       <div>
         <img
           className='mx-auto mb-1'
@@ -12,8 +12,8 @@ const Footer = () => {
           alt=""
         />
         <p className="font-bold">
-          Through Travels <br />
-          Providing reliable travels since 2023
+          Care Connects <br />
+          Providing reliable HealthCare since 2023
         </p>
         <p className='my-1'>Copyright © 2023 - All right reserved</p>
       </div>

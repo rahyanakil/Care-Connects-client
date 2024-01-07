@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../Shared/Container";
+import telemed from "../../assets/images/telemedicine.jpg";
 
 const Safety = () => {
   return (
@@ -9,30 +10,24 @@ const Safety = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="text-left">
               <h2 className="animated-text text-3xl mb-4">
-                Safety and Travel Updates
+              Health Management with Care Connect
               </h2>
               <p className="text-xl text-gray-700 mb-6">
-                We prioritize your safety and well-being during your travels.
-                Stay informed about the latest safety measures, travel
-                advisories, and health-related guidelines.
+              At Care Connect HMS, we are dedicated to prioritizing your well-being throughout your healthcare journey. Your safety is our commitment.
               </p>
               <div className="mb-6">
                 <h3 className="text-2xl font-semibold mb-2">Key Updates</h3>
                 <ul className="list-disc list-inside text-gray-800">
                   <li>
-                    Check official travel advisories and warnings issued by your
-                    government or international health organizations for your
-                    travel destination.
+                  Stay informed with Care Connect and warnings issued by your government and international health organizations for your travel destination.  
+
+
                   </li>
                   <li>
-                    Follow local health and safety guidelines in the regions you
-                    visit, such as mask mandates, social distancing, and hygiene
-                    practices.
+                  Prioritize your well-being by following local health and safety guidelines, including mask mandates, social distancing, and hygiene practices, in the regions you visit.
                   </li>
                   <li>
-                    Stay updated on entry requirements, including visa and
-                    vaccination requirements, and be aware of quarantine rules
-                    if applicable.
+                  Stay updated on entry requirements, including visa and vaccination necessities, and be aware of applicable quarantine rules.
                   </li>
                 </ul>
               </div>
@@ -42,26 +37,26 @@ const Safety = () => {
               </p>
               <div className="flex space-x-4">
                 <a
-                  href="https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/"
+                  href="https://www.healthgrades.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#0ea5e9] hover:bg-sky-600 text-white font-semibold py-3 px-6 rounded-lg inline-block"
                 >
-                  Official Safety Updates
+                  Official healthgrades Updates
                 </a>
                 <a
-                  href="https://wwwnc.cdc.gov/travel"
+                  href="https://www.teladoc.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#0ea5e9] hover:bg-sky-600 text-white font-semibold py-3 px-6 rounded-lg inline-block"
                 >
-                  Health Guidelines
+                  TeleDoc Guidelines
                 </a>
               </div>
             </div>
             <div>
               <img
-                src="https://media.istockphoto.com/id/1268257924/photo/travel-during-the-covid-19-pandemic-airplane-model-with-face-mask-and-travel-documents.webp?b=1&s=170667a&w=0&k=20&c=TVntuADuoUlXrX7QJ2EM2AAjx8jhoJcTmq249_xidVE="
+                src={telemed}
                 alt="Safety and Travel Updates"
                 className="w-full h-auto rounded-lg shadow-md"
               />

@@ -17,7 +17,7 @@ const MenuDropdown = () => {
     becomeHost(email)
     .then(data => {
       console.log(data)
-      toast.success("Your are Host Now. Post your Places!")
+      toast.success("Your are Host Now. Post your Services!")
       setRole('host')
       navigate('/dashboard/add-place')
       closeModal()
@@ -37,7 +37,7 @@ const MenuDropdown = () => {
               onClick={() => setModal(true)}
               disabled={!user}
             >
-              Through Travels your Host
+              Care Connects your Host
             </button>
           )}
         </div>

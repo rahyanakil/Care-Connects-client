@@ -51,8 +51,8 @@ const Places = () => {
       ) : (
         <div className="min-h-[calc(100vh-300px)] flex items-center justify-center">
           <Heading
-            title="No Places Available In This Category"
-            subtitle="Please try another category"
+            title="No Doctor's Available In This Category"
+            subtitle="Please try another Category"
             center={true}
           />
         </div>

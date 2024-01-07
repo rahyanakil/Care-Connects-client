@@ -17,21 +17,21 @@ const AddPlaceForm = ({
           <div className="space-y-6">
             <div className="space-y-1 text-sm">
               <label htmlFor="location" className="block text-gray-600">
-                Location
+                Name
               </label>
               <input
                 className="w-full px-4 py-3 text-gray-800 border border-sky-300 focus:outline-sky-500 rounded-md "
                 name="location"
                 id="location"
                 type="text"
-                placeholder="Location"
+                placeholder="Name"
                 required
               />
             </div>
 
             <div className="space-y-1 text-sm">
               <label htmlFor="category" className="block text-gray-600">
-                Category
+              Specialty
               </label>
               <select
                 required
@@ -56,14 +56,14 @@ const AddPlaceForm = ({
           <div className="space-y-6">
             <div className="space-y-1 text-sm">
               <label htmlFor="title" className="block text-gray-600">
-                Title
+              Qualifications
               </label>
               <input
                 className="w-full px-4 py-3 text-gray-800 border border-sky-300 focus:outline-sky-500 rounded-md "
                 name="title"
                 id="title"
                 type="text"
-                placeholder="Title"
+                placeholder="qualifications"
                 required
               />
             </div>
@@ -105,14 +105,14 @@ const AddPlaceForm = ({
 
               <div className="space-y-1 text-sm">
                 <label htmlFor="guest" className="block text-gray-600">
-                  Total guest
+                Experience(Years)
                 </label>
                 <input
                   className="w-full px-4 py-3 text-gray-800 border border-sky-300 focus:outline-sky-500 rounded-md "
                   name="total_guest"
                   id="guest"
                   type="number"
-                  placeholder="Total guest"
+                  placeholder="Experience"
                   required
                 />
               </div>
@@ -121,28 +121,28 @@ const AddPlaceForm = ({
             <div className="flex justify-between gap-2">
               <div className="space-y-1 text-sm">
                 <label htmlFor="bedrooms" className="block text-gray-600">
-                  Bedrooms
+                Contact Information
                 </label>
                 <input
                   className="w-full px-4 py-3 text-gray-800 border border-sky-300 focus:outline-sky-500 rounded-md "
                   name="bedrooms"
                   id="bedrooms"
                   type="number"
-                  placeholder="Bedrooms"
+                  placeholder="+8801********"
                   required
                 />
               </div>
 
               <div className="space-y-1 text-sm">
                 <label htmlFor="bathrooms" className="block text-gray-600">
-                  Bathrooms
+                  Email
                 </label>
                 <input
                   className="w-full px-4 py-3 text-gray-800 border border-sky-300 focus:outline-sky-500 rounded-md "
                   name="bathrooms"
                   id="bathrooms"
-                  type="number"
-                  placeholder="Bathrooms"
+                  type="email"
+                  placeholder="email"
                   required
                 />
               </div>
