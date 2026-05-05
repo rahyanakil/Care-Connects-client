@@ -1,10 +1,3 @@
-এখানে তোমার **Care Connects** প্রজেক্টের জন্য একটি কমপ্লিট এবং প্রফেশনাল `README.md` ফাইল দেওয়া হলো। এটি এমনভাবে ডিজাইন করা হয়েছে যাতে তোমার অ্যাসাইনমেন্টের সব রিকোয়ারমেন্ট (যেমন: System Design, Security, Installation steps) কাভার করে।
-
-সম্পূর্ণ কোডটি কপি করে তোমার প্রজেক্টের `README.md` ফাইলে পেস্ট করে দাও:
-
----
-
-```markdown
 # 🏥 Care Connects - Full-Stack Hospital Management & Telemedicine Platform
 
 <p align="center">
@@ -71,65 +64,62 @@ To ensure high performance and maintainability, this project utilizes:
 Follow these steps to set up the project locally:
 
 ### 1. Clone the Repository
-```bash
-git clone [https://github.com/rahyanakil/Care-Connects-client](https://github.com/rahyanakil/Care-Connects-client)
-cd Care-Connects-client
-```
 
-### 2. Install Dependencies
-**Client Side:**
-```bash
+2. Install Dependencies
+Client Side:
+
+Bash
 npm install
-```
-**Server Side:**
-```bash
+Server Side:
+
+Bash
 cd server # or your server folder
 npm install
-```
+3. Environment Variables (.env)
+Create a .env file in the server directory and add your credentials:
 
-### 3. Environment Variables (.env)
-Create a `.env` file in the **server** directory and add your credentials:
-```env
+Code snippet
 PORT=5000
 DB_USER=your_mongodb_username
 DB_PASS=your_mongodb_password
 JWT_ACCESS_TOKEN=your_secret_key
 STRIPE_SECRET_KEY=your_stripe_key
 FIREBASE_API_KEY=your_firebase_key
-```
+4. Run the Development Server
+Start Backend:
 
-### 4. Run the Development Server
-**Start Backend:**
-```bash
+Bash
 npm run dev
-```
-**Start Frontend:**
-```bash
+Start Frontend:
+
+Bash
 # back in the root folder
 npm run dev
-```
-Open [http://localhost:5173](http://localhost:5173) in your browser.
+Open http://localhost:5173 in your browser.
 
----
+🤝 Contribution & License
+Contributions make the open-source community an amazing place to learn and create.
 
-## 🤝 Contribution & License
-Contributions make the open-source community an amazing place to learn and create. 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Fork the Project
 
-This project is licensed under the **MIT License**.
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
 
----
+Commit your Changes (git commit -m 'Add some AmazingFeature')
 
-## 📞 Contact & Support
-**Rahyan Shamsi Akil**  
-- **Email:** [rahyanakil89@gmail.com](mailto:rahyanakil89@gmail.com)  
-- **Portfolio:** [rahyanakil.vercel.app](https://rahyanakil.vercel.app/)  
-- **LinkedIn:** [linkedin.com/in/rahyanshamsi](https://linkedin.com/in/rahyanshamsi/)
+Push to the Branch (git push origin feature/AmazingFeature)
 
----
-<p align="center">Made with ❤️ for a Healthier Future.</p>
-```
+Open a Pull Request
+
+This project is licensed under the MIT License.
+
+📞 Contact & Support
+Rahyan Shamsi Akil
+
+Email: rahyanakil89@gmail.com
+
+Portfolio: rahyanakil.vercel.app
+
+LinkedIn: linkedin.com/in/rahyanshamsi
+```bash
+git clone [https://github.com/rahyanakil/Care-Connects-client](https://github.com/rahyanakil/Care-Connects-client)
+cd Care-Connects-client
