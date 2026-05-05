@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://care-connects.web.app"><strong>🌐 Live Site</strong></a>
+  <a href="https://careconnects-7b184.web.app/"><strong>🌐 Live Site</strong></a>
 </p>
 
 Care Connects is a modern, full-stack web application designed to bridge the gap between patients and healthcare providers. It provides a seamless platform for users to find doctors by specialty, view their profiles, and book appointments. The application features distinct dashboards for patients and "hosts" (doctors), enabling efficient management of bookings and services.
