@@ -1,200 +1,93 @@
-# 🏥 Care Connects - Full-Stack Hospital Management & Telemedicine Platform
+# Care Connects - Doctor Appointment Platform
+
+[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/rahyanakil/Care-Connects-client/tree/main)
 
 <p align="center">
-  <img src="https://i.ibb.co.com/WskKr7P/cover-img.jpg" alt="Care Connects Banner" width="100%" />
+  <img src="https://i.ibb.co/WskKr7P/cover-img.jpg" alt="Care Connects Banner" />
 </p>
 
 <p align="center">
-  <a href="https://care-connects.web.app"><strong>🌐 Live Site Demo</strong></a> |
-  <a href="https://github.com/rahyanakil/Care-Connects-client"><strong>💻 Client Repo</strong></a> |
-  <a href="https://github.com/rahyanakil/Care-Connects-server"><strong>🖥️ Server Repo</strong></a>
+  <a href="https://care-connects.web.app"><strong>🌐 Live Site</strong></a>
 </p>
 
----
-
-## 📝 Project Overview
-**Care Connects** is a comprehensive **MERN Stack** healthcare solution. It bridges the gap between patients and doctors by offering an integrated **Hospital Management System (HMS)** and **Telemedicine** services. From managing Electronic Health Records (EHR) to secure virtual consultations, Care Connects ensures a seamless digital experience for both healthcare providers and patients.
-
-### 🎯 Key Objectives
-- To streamline hospital workflows from patient admission to discharge.
-- To provide secure, end-to-end encrypted telemedicine consultations.
-- To implement a reliable multi-gateway payment system (Stripe, bKash, Nagad) for medical billing.
-
----
+Care Connects is a modern, full-stack web application designed to bridge the gap between patients and healthcare providers. It provides a seamless platform for users to find doctors by specialty, view their profiles, and book appointments. The application features distinct dashboards for patients and "hosts" (doctors), enabling efficient management of bookings and services.
 
 ## ✨ Key Features
 
-### 👨‍⚕️ For Patients
-- **Smart Appointment Booking:** Real-time scheduling with automated reminders.
-- **Virtual Consultations:** High-quality remote communication with specialized doctors.
-- **Secure Payments:** Integrated support for **Stripe, bKash, and Nagad**.
-- **Personal Dashboard:** Access to health records, prescriptions, and appointment history.
+*   **Doctor Discovery:** Browse and filter doctors by medical specialty (e.g., Cardiologist, Dermatologist).
+*   **Detailed Profiles:** View comprehensive doctor profiles, including qualifications, experience, consultation fees, and availability.
+*   **Appointment Booking:** An intuitive booking system with a date range calendar and secure payment processing via Stripe.
+*   **User Authentication:** Secure user registration and login system powered by Firebase, including Google Sign-In.
+*   **Role-Based Dashboards:**
+    *   **Patient Dashboard:** View and manage personal bookings.
+    *   **Doctor (Host) Dashboard:** Add and manage service listings, view and manage incoming bookings from patients.
+*   **Interactive Map:** A Leaflet-based map to visualize service locations.
+*   **Responsive Design:** A fully responsive interface built with Tailwind CSS, ensuring a great user experience on all devices.
 
-### 🏥 For Administrators & Doctors
-- **Role-Based Access Control (RBAC):** Distinct permissions for Admins, Doctors, and Patients.
-- **EHR Management:** Digitized health records for improved diagnosis accuracy.
-- **Real-time Analytics:** Track hospital resources, patient flow, and revenue.
+## 🛠️ Tech Stack
 
----
+| Category          | Technology                                                                                           |
+| ----------------- | ---------------------------------------------------------------------------------------------------- |
+| **Frontend**      | [React](https://react.dev/), [React Router](https://reactrouter.com/), [Vite](https://vitejs.dev/) |
+| **Styling**       | [Tailwind CSS](https://tailwindcss.com/)                                                             |
+| **State Management** | [TanStack Query](https://tanstack.com/query/), [React Context API](https://react.dev/learn/passing-data-deeply-with-context) |
+| **Authentication** | [Firebase Authentication](https://firebase.google.com/docs/auth)                                     |
+| **Payments**      | [Stripe](https://stripe.com/)                                                                        |
+| **HTTP Client**   | [Axios](https://axios-http.com/)                                                                     |
+| **UI Components** | [Headless UI](https://headlessui.com/), [React Icons](https://react-icons.github.io/react-icons/) |
+| **Map**           | [React-Leaflet](https://react-leaflet.js.org/)                                                       |
 
-## 🛠️ Tech Stack & Tools
+## ⚙️ Getting Started
 
-| Layer | Technology | Purpose |
-| :--- | :--- | :--- |
-| **Frontend** | React.js, Tailwind CSS | UI/UX & Responsive Design |
-| **Backend** | Node.js, Express.js | Scalable API & Server Logic |
-| **Database** | MongoDB | Document-oriented Data Storage |
-| **Auth** | Firebase & JWT | Secure Authentication & Session Mgmt |
-| **State Mgmt** | TanStack Query | Efficient Server-state Fetching |
-| **Payment** | Stripe, bKash, Nagad | Financial Transactions |
+To get a local copy up and running, follow these simple steps.
 
----
+### Prerequisites
 
-## 🏗️ System Architecture & Design
-To ensure high performance and maintainability, this project utilizes:
-- **Clean Architecture:** Separation of concerns between UI, Business Logic, and Data.
-- **RESTful API Design:** Predictable and structured communication between client and server.
-- **Security First:** Implementation of **Zod** for schema validation and **JWT** for protecting private routes.
-- **Scalability:** Modular structure to support future enterprise-level expansion.
+*   Node.js (v18 or later)
+*   npm or yarn
+*   A running instance of the [Care Connects Server](https://github.com/rahyanakil/Care-Connects-server)
 
----
+### Installation
 
-## ⚙️ Installation & Local Setup
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/rahyanakil/Care-Connects-client.git
+    cd Care-Connects-client
+    ```
 
-Follow these steps to set up the project locally:
+2.  **Install NPM packages:**
+    ```sh
+    npm install
+    ```
 
-বুঝেছি ভাই, চ্যাটবক্সের ঝামেলার কারণে আগেরবার হয়তো ফরম্যাটিং ভেঙে গিয়েছিল। এই নাও একদম ফ্রেশ এবং কমপ্লিট README.md কোড।
+3.  **Set up environment variables:**
+    Create a `.env` file in the root of your project and add the following environment variables.
 
-নিচের Copy বাটনে ক্লিক করে সরাসরি তোমার ফাইলে পেস্ট করে দাও:
+    ```env
+    # The base URL of your backend server
+    VITE_API_URL=http://localhost:5000
 
-Markdown
-# 🏥 Care Connects - Full-Stack Hospital Management & Telemedicine Platform
+    # Your public key from Stripe
+    VITE_Payment_Gateway_PK=your_stripe_public_key
 
-<p align="center">
-  <img src="https://i.ibb.co.com/WskKr7P/cover-img.jpg" alt="Care Connects Banner" width="100%" />
-</p>
+    # Your API key from ImgBB for image uploads
+    VITE_IMGBB_KEY=your_imgbb_api_key
 
-<p align="center">
-  <a href="https://care-connects.web.app"><strong>🌐 Live Site Demo</strong></a> |
-  <a href="https://github.com/rahyanakil/Care-Connects-client"><strong>💻 Client Repo</strong></a> |
-  <a href="https://github.com/rahyanakil/Care-Connects-server"><strong>🖥️ Server Repo</strong></a>
-</p>
+    # Firebase configuration
+    VITE_apiKey=your_firebase_api_key
+    VITE_authDomain=your_firebase_auth_domain
+    VITE_projectId=your_firebase_project_id
+    VITE_storageBucket=your_firebase_storage_bucket
+    VITE_messagingSenderId=your_firebase_messaging_sender_id
+    VITE_appId=your_firebase_app_id
+    ```
 
----
+4.  **Run the development server:**
+    ```sh
+    npm run dev
+    ```
+    The application will be available at `http://localhost:5173`.
 
-## 📝 Project Overview
-**Care Connects** is a comprehensive **MERN Stack** healthcare solution. It bridges the gap between patients and doctors by offering an integrated **Hospital Management System (HMS)** and **Telemedicine** services. From managing Electronic Health Records (EHR) to secure virtual consultations, Care Connects ensures a seamless digital experience for both healthcare providers and patients.
+## 📄 License
 
-### 🎯 Key Objectives
-- To streamline hospital workflows from patient admission to discharge.
-- To provide secure, end-to-end encrypted telemedicine consultations.
-- To implement a reliable multi-gateway payment system (Stripe, bKash, Nagad) for medical billing.
-
----
-
-## ✨ Key Features
-
-### 👨‍⚕️ For Patients
-- **Smart Appointment Booking:** Real-time scheduling with automated reminders.
-- **Virtual Consultations:** High-quality remote communication with specialized doctors.
-- **Secure Payments:** Integrated support for **Stripe, bKash, and Nagad**.
-- **Personal Dashboard:** Access to health records, prescriptions, and appointment history.
-
-### 🏥 For Administrators & Doctors
-- **Role-Based Access Control (RBAC):** Distinct permissions for Admins, Doctors, and Patients.
-- **EHR Management:** Digitized health records for improved diagnosis accuracy.
-- **Real-time Analytics:** Track hospital resources, patient flow, and revenue.
-
----
-
-## 🛠️ Tech Stack & Tools
-
-| Layer | Technology | Purpose |
-| :--- | :--- | :--- |
-| **Frontend** | React.js, Tailwind CSS | UI/UX & Responsive Design |
-| **Backend** | Node.js, Express.js | Scalable API & Server Logic |
-| **Database** | MongoDB | Document-oriented Data Storage |
-| **Auth** | Firebase & JWT | Secure Authentication & Session Mgmt |
-| **State Mgmt** | TanStack Query | Efficient Server-state Fetching |
-| **Payment** | Stripe, bKash, Nagad | Financial Transactions |
-
----
-
-## 🏗️ System Architecture & Design
-To ensure high performance and maintainability, this project utilizes:
-- **Clean Architecture:** Separation of concerns between UI, Business Logic, and Data.
-- **RESTful API Design:** Predictable and structured communication between client and server.
-- **Security First:** Implementation of **Zod** for schema validation and **JWT** for protecting private routes.
-- **Scalability:** Modular structure to support future enterprise-level expansion.
-
----
-
-## ⚙️ Installation & Local Setup
-
-Follow these steps to set up the project locally:
-
-### 1. Clone the Repository
-```bash
-git clone [https://github.com/rahyanakil/Care-Connects-client](https://github.com/rahyanakil/Care-Connects-client)
-cd Care-Connects-client
-2. Install Dependencies
-Client Side:
-
-Bash
-npm install
-Server Side:
-
-Bash
-cd server # navigate to your server directory
-npm install
-3. Environment Variables (.env)
-Create a .env file in your server directory and add your credentials:
-
-Code snippet
-PORT=5000
-DB_USER=your_mongodb_username
-DB_PASS=your_mongodb_password
-JWT_ACCESS_TOKEN=your_secret_key
-STRIPE_SECRET_KEY=your_stripe_key
-BKASH_APP_KEY=your_bkash_key
-FIREBASE_API_KEY=your_firebase_key
-4. Run the Development Server
-Start Backend:
-
-Bash
-npm run dev
-Start Frontend:
-
-Bash
-# In a new terminal, from the root folder
-npm run dev
-Visit: http://localhost:5173
-
-🤝 Contribution & License
-Contributions make the open-source community an amazing place to learn and create.
-
-Fork the Project
-
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-
-Push to the Branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
-
-This project is licensed under the MIT License.
-
-📞 Contact & Support
-Rahyan Shamsi Akil
-
-Email: rahyanakil89@gmail.com
-
-Portfolio: rahyanakil.vercel.app
-
-LinkedIn: linkedin.com/in/rahyanshamsi
-
-### 1. Clone the Repository
-```bash
-git clone [https://github.com/rahyanakil/Care-Connects-client](https://github.com/rahyanakil/Care-Connects-client)
-cd Care-Connects-client
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
