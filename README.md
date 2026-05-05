@@ -3,11 +3,11 @@
 [![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/rahyanakil/Care-Connects-client/tree/main)
 
 <p align="center">
-  <img src="https://i.ibb.co/WskKr7P/cover-img.jpg" alt="Care Connects Banner" />
+  <img src="[https://i.ibb.co/WskKr7P/cover-img.jpg](https://i.ibb.co.com/MxgCxTbd/GITHUB-BANNER.png)" alt="Care Connects Banner" />
 </p>
 
 <p align="center">
-  <a href="https://ibb.co.com/XrWCrB9H"><strong>🌐 Live Site</strong></a>
+  <a href="https://careconnects-7b184.web.app/"><strong>🌐 Live Site</strong></a>
 </p>
 
 Care Connects is a modern, full-stack web application designed to bridge the gap between patients and healthcare providers. It provides a seamless platform for users to find doctors by specialty, view their profiles, and book appointments. The application features distinct dashboards for patients and "hosts" (doctors), enabling efficient management of bookings and services.
