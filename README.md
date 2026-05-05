@@ -68,7 +68,6 @@ Follow these steps to set up the project locally:
 2. Install Dependencies
 Client Side:
 
-Bash
 npm install
 Server Side:
 
