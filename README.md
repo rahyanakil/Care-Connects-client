@@ -46,7 +46,26 @@ To get a local copy up and running, follow these simple steps.
 *   Node.js (v18 or later)
 *   npm or yarn
 *   A running instance of the [Care Connects Server](https://github.com/rahyanakil/Care-Connects-server)
+---
 
+## 🏗️ Architecture & System Design
+To ensure high performance and maintainability, this project utilizes:
+- **Clean Architecture:** Strict separation between UI components and business logic.
+- **RESTful API Design:** Predictable and structured communication between client and server.
+- **Role-Based Access Control (RBAC):** Implementation of JWT to verify user roles (Admin/Doctor/Patient).
+- **Security First:** Data validation using **Zod** (if applicable) and protected private routes.
+- **Performance Optimization:** Efficient data fetching and caching with **TanStack Query**.
+
+## 📁 Project Structure Highlights
+```text
+src/
+├── api/            # API interaction logic (Axios instances)
+├── components/     # Reusable UI components (Shared)
+├── hooks/          # Custom React hooks for business logic
+├── layouts/        # Dashboard and Main layouts
+├── pages/          # Feature-based page components
+├── providers/      # Context providers (Auth, Theme, etc.)
+└── routes/         # Centralized routing configuration
 ### Installation
 
 1.  **Clone the repository:**
