@@ -3,7 +3,7 @@
 [![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/rahyanakil/Care-Connects-client/tree/main)
 
 <p align="center">
-  <img src="[https://i.ibb.co/WskKr7P/cover-img.jpg](https://i.ibb.co.com/MxgCxTbd/GITHUB-BANNER.png)" alt="Care Connects Banner" />
+  <img src="https://i.ibb.co.com/MxgCxTbd/GITHUB-BANNER.png" alt="Care Connects Banner" />
 </p>
 
 <p align="center">
